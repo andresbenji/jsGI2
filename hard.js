@@ -14,8 +14,9 @@ const jerryMassKg = jerryMassG / 1000;
 const tomBMI = tomMassKg / tomHeightM ** 2;
 const jerryBMI = jerryMassKg / jerryHeightM ** 2;
 
+//variable that compares tomBMI and jerryBMI to see if tomBMI is higher
 const isTomBMIHigher = tomBMI > jerryBMI;
 
-console.log(isTomBMIHigher);
-console.log(tomBMI);
-console.log(jerryBMI);
+console.log(isTomBMIHigher); //output: false
+console.log(tomBMI); //output: 0.15308672592653827
+console.log(jerryBMI); //output: 0.69750139500279

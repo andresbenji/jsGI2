@@ -1,3 +1,4 @@
+// variablel holding an array of students
 const students = [
   { lastName: "Cuellar", firstName: "Andres", age: 23 },
   { lastName: "Ramirez", firstName: "Daniella", age: 24 },
